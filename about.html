@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Seekers</title>
+
+    <!-- AOS Animation link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+
+    <!-- Fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- Swiper Js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <!-- Animation CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#"><span>Job</span> Seekers</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto" id="navbar">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Candidates
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Upload Resume</a></li>
+                      <li><a class="dropdown-item" href="#">Add New Candidates</a></li>
+                      <li><a class="dropdown-item" href="#">Profile</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./blogs.html">Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section Start -->
+    <section class="about">
+        <div class="about-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="text-center">About <span>Us</span></h1>
+                        <nav aria-label="breadcrumb" class="about-hero">
+                            <ol class="breadcrumb">
+                                <div class="breadcrumb m-auto">
+                                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                    <!-- <li class="breadcrumb-item"><a href="#">Library</a></li> -->
+                                    <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                                </div>
+                            </ol>
+                        </nav>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="image"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <section class="about-content p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="image " data-aos="fade-right">
+                        <img src="./img/about-meet.webp" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 content mt-5">
+                    <h1 class="text-center"><mark> We help you to get Perfect Job </mark></h1>
+                    <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, laborum neque
+                        accusantium reprehenderit saepe sint quis ducimus consectetur iste perspiciatis eius earum
+                        impedit eos totam, illo culpa distinctio enim. Ipsam. Lorem ipsum, dolor sit amet consectetur
+                        adipisicing elit. Ab, saepe accusamus assumenda voluptates, quas cumque ea in tempora incidunt
+                        labore, facere provident veritatis sunt ipsa laboriosam blanditiis laudantium hic molestias!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis itaque nostrum animi delectus
+                        eius beatae quisquam voluptate nesciunt corporis minus velit dolor molestias ad modi, qui atque
+                        fugiat illo accusantium.</p>
+                    <div class="row ">
+                        <div class="col-4">
+                            <div class="about-box text-center">
+                                <i class="fas fa-users"></i>
+                                <h3>Readers</h3>
+                                <span>750</span>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="about-box text-center">
+                                <i class="fas fa-file"></i>
+                                <h3>Posts</h3>
+                                <span>350</span>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="about-box text-center">
+                                <i class="fas fa-pen"></i>
+                                <h3>Writers</h3>
+                                <span>32</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Team Section Start -->
+    <section class="team pt-5">
+        <div class="container">
+            <div class="box swiper mySwiper">
+                <div class="heading">
+                  <h1>Our <span>Team</span></h1>
+                  <div id="line"></div>
+                </div> 
+                <div class="swiper-wrapper ">
+                    <div class="wrapper-card mt-5 swiper-slide">
+                      <div class="card p-3 text-center">
+                        <div class="image">
+                            <img src="./img/testimonial-1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Saurav</h3>
+                            <p class="text-justify p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+                                <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-stroke"></i>
+                            </p>
+                        </div>
+                        
+                      </div>
+                    </div>
+                    <div class="wrapper-card mt-5 swiper-slide">
+                      <div class="card p-3 text-center">
+                        <div class="image">
+                            <img src="./img/team-2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Sagar Sharma</h3>
+                            <p class="text-justify p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+                                <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-stroke"></i>
+                            </p>
+                        </div>
+                        
+                      </div>
+                    </div>
+                    <div class="wrapper-card mt-5 swiper-slide">
+                      <div class="card p-3 text-center">
+                        <div class="image">
+                            <img src="./img/team-4.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Krishan Kant</h3>
+                            <p class="text-justify p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+                                <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-stroke"></i>
+                            </p>
+                        </div>
+                        
+                      </div>
+                    </div>
+                    <div class="wrapper-card mt-5 swiper-slide">
+                      <div class="card p-3 text-center">
+                        <div class="image">
+                            <img src="./img/team-1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Sakshi Ghildiyal</h3>
+                            <p class="text-justify p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+                                <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-stroke"></i>
+                            </p>
+                        </div>
+                        
+                      </div>
+                    </div>
+                    <div class="wrapper-card mt-5 swiper-slide">
+                      <div class="card p-3 text-center">
+                        <div class="image">
+                            <img src="./img/team-3.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Preeti</h3>
+                            <p class="text-justify p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+                                <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-stroke"></i>
+                            </p>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  
+                  <div class="swiper-slide">
+                    
+                  </div>
+                  
+                </div>
+                <div class="swiper-button-next text-success mt-5"></div>
+                <div class="swiper-button-prev text-success mt-5"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+            
+            <div class="row mt-4">
+                <!-- <div class="col-lg-3 content gy-2">
+                    <div class="image">
+                        <img src="./img/blank.png" alt="">
+                    </div>
+                    <h2 class="text-center">Saurav</h2>
+                    <span>Full Stack Developer</span><br>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                </div>
+                <div class="col-lg-3 content gy-2">
+                    <div class="image">
+                        <img src="./img/blank.png" alt="">
+                    </div>
+                    <h2 class="text-center">Sagar Sharma</h2>
+                    <span>Full Stack Developer</span><br>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                </div>
+                <div class="col-lg-3 content gy-2">
+                    <div class="image">
+                        <img src="./img/blank.png" alt="">
+                    </div>
+                    <h2 class="text-center">Krishan Kant</h2>
+                    <span>Full Stack Developer</span><br>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                </div>
+                <div class="col-lg-3 content gy-2">
+                    <div class="image">
+                        <img src="./img/blank.png" alt="">
+                    </div>
+                    <h2 class="text-center">Prince</h2>
+                    <span>Full Stack Developer</span><br>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- Our Team Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <h1><span>Job</span> Seekers</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos exercitationem officiis aperiam praesentium consequuntur nulla officia, sed cumque. Repudiandae ut odio iure quisquam est natus labore omnis neque, dolores fugit.</p>
+              <div class="row">
+                <div class="col-12 help">
+                  <h4><span> Get Help</span> on Social Media</h4>
+                  <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="#"><i class="fa-brands fa-youtube-square"></i></a>
+                  <a href="#"><i class="fa-brands fa-whatsapp-square"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 links">
+              <h2>Quick Links</h2>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Add JobSeerker</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 courses">
+              <h2>Top Online Courses</h2>
+              <ul>
+                <li><a href="#">Affiliate Marketing</a></li>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Data Analytics</a></li>
+                <li><a href="#">Data Entry</a></li>
+                <li><a href="#">Graphic Designing</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 follow">
+              <h2>Follow Us</h2>
+              <ul>
+                <li><i class="fa-solid fa-mobile"></i> +91-8178991027</li>
+                <li><i class="fa-solid fa-envelope"></i> Souravkumar5884@gmail.com</li>
+              </ul>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.6556216016515!2d77.30193821449149!3d28.489916097273408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce72136ba9187%3A0x768ae7298dd2737b!2sBadarpur%20Border%20Toll%20Booth%2C%20Badarpur%2C%20Haryana%20121003%2C%20India!5e0!3m2!1sen!2sde!4v1665991520551!5m2!1sen!2sde" width="100%" height="200"></iframe>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <!-- Footer Section End -->
+
+
+
+    <!-- script js -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+    <!-- swiper Js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- swiper Js -->
+    <script src="./js/swiper.js"></script>
+    <!-- Aos data link -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 200,
+        });
+    </script>
+    <!-- script js -->
+
+</body>
+
+</html>

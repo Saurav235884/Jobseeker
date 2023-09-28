@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Seekers</title>
+
+    <!-- AOS Animation link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+
+    <!-- Fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- Swiper Js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <!-- Animation CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#"><span>Job</span> Seekers</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto" id="navbar">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Candidates
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Upload Resume</a></li>
+                      <li><a class="dropdown-item" href="#">Add New Candidates</a></li>
+                      <li><a class="dropdown-item" href="#">Profile</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./blogs.html">Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section Start -->
+    <section class="hero ">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-lg-12 text-center">
+                  <div class="content ">
+                    <h1>Find the Most<span> Exciting Jobs.</span></h1><br>
+                    <div class="row justify-content-center mob-hero">
+                      <div class="col-lg-3">
+                        <select name="tour" id="tour" class="category btn btn-success" >
+                          <option value="">category</option>
+                          <option value="">IT</option>
+                          <option value="">Field</option>
+                          <option value="">Data Entry</option>
+                        </select>
+                      </div>
+                      <div class="col-lg-3">
+                        <input type="text" class="location" placeholder="Location">
+                      </div>
+                      <div class="col-lg-2">
+                        <input type="submit" value="Find Jobs" class="btn btn-success">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section class="about pt-5">
+      <div class="container">
+        <h1 class="text-center">About <span>Us</span></h1>
+        <div id="line"></div>
+        <div class="row pt-4">
+          <div class="col-lg-6 ">
+            <div class="image" data-aos="fade-right">
+              <img src="./img/about_us.webp" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 content">
+            <h2>Why Choose Us?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ipsum minima ad vel reiciendis ut molestiae quae similique eveniet. Deleniti quae pariatur blanditiis id ab incidunt facere, alias ut error!</p>
+            <ul>
+              <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum possimus labore, neque esse quidem tenetur dolor? Suscipit magni illum voluptatibus!</li>
+              <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita assumenda sed dolores officia nemo optio maxime voluptatem recusandae.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum iure illo magnam labore doloremque, laborum corrupti id omnis tempora sint numquam commodi iste amet tenetur.</li>
+              <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa suscipit impedit ipsam?</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, in! Accusamus animi sint ducimus expedita nostrum?</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+    
+    <!-- Category Section Start -->
+    <section class="category">
+      <div class="container">
+        <div class="box swiper mySwiper">
+          <div class="heading">
+            <h1>Top <span>Courses</span></h1>
+            <div id="line"></div>
+          </div> 
+          <div class="swiper-wrapper mt-5">
+            <div class="wrapper-card mt-5 swiper-slide">
+              <div class="content ">
+                <div class="card p-3 text-center">
+                  <ion-icon name="aperture-outline"></ion-icon>
+                  <h3>Graphic Designer</h3>
+                  <p class="text-justify p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati omnis blanditiis asperiores distinctio voluptatem delectus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam et iste reiciendis eius consequatur quod facere temporibus doloribus maiores unde...</p>
+                </div>
+              </div>
+            </div>
+            <div class="wrapper-card mt-5 swiper-slide">
+              <div class="content ">
+                <div class="card p-3 text-center">
+                  <ion-icon name="code-outline"></ion-icon>
+                  <h3>Web Developer</h3>
+                  <p class="text-justify p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati omnis blanditiis asperiores distinctio voluptatem delectus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam et iste reiciendis eius consequatur quod facere temporibus doloribus maiores unde...</p>
+                </div>
+              </div>
+            </div>
+            <div class="wrapper-card mt-5 swiper-slide">
+              <div class="content ">
+                <div class="card p-3 text-center">
+                  <ion-icon name="analytics-outline"></ion-icon>
+                  <h3>Data Analytics</h3>
+                  <p class="text-justify p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati omnis blanditiis asperiores distinctio voluptatem delectus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam et iste reiciendis eius consequatur quod facere temporibus doloribus maiores unde...</p>
+                </div>
+              </div>
+            </div>
+            <div class="wrapper-card mt-5 swiper-slide">
+              <div class="content ">
+                <div class="card p-3 text-center">
+                  <ion-icon name="laptop-outline"></ion-icon>
+                  <h3>Data Entry</h3>
+                  <p class="text-justify p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati omnis blanditiis asperiores distinctio voluptatem delectus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam et iste reiciendis eius consequatur quod facere temporibus doloribus maiores unde...</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              
+            </div>
+            
+          </div>
+          <div class="swiper-button-next text-success mt-5"></div>
+          <div class="swiper-button-prev text-success mt-5"></div>
+          <div class="swiper-pagination swiper-page"></div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- Category Section End -->
+
+    <!-- Services Section Start -->
+    <section class="service pt-5">
+      <div class="container">
+        <div class="heading">
+          <h1 class="text-center">Our <span>Services</span></h1>
+          <div id="line"></div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-lg-6">
+            <h2> We Help Your to Get <span>Perfect Job</span>. </h2>
+            <br>
+            <ul>
+              <li>Help them create a professional profile online</li>
+              <li>Ask them to list ideal jobs</li>
+              <li>Go with them to a <mark>hiring event</mark></li>
+              <li>Help them decide if you want to <mark>Gain New Skills</mark></li>
+              <li>Help them create a professional profile online</li>
+              <li>Share your resume on your social networks</li>
+              <li>Help find professional job in their field</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 mob-about-img">
+            <div class="image" data-aos="fade-left" >
+              <img src="./img/service.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- Online Courses Start -->
+    <!-- Online Courses End-->
+
+    <!-- News Letter Section Start -->
+
+    <!-- News Letter Section End -->
+
+    <!-- Contact Us Start -->
+   
+    <!-- Contact Us End -->
+
+    <!-- Footer Section Start -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <h1><span>Job</span> Seekers</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos exercitationem officiis aperiam praesentium consequuntur nulla officia, sed cumque. Repudiandae ut odio iure quisquam est natus labore omnis neque, dolores fugit.</p>
+            <div class="row">
+              <div class="col-12 help">
+                <h4><span> Get Help</span> on Social Media</h4>
+                <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube-square"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp-square"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 links">
+            <h2>Quick Links</h2>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Add JobSeerker</a></li>
+              <li><a href="#">Profile</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 courses">
+            <h2>Top Online Courses</h2>
+            <ul>
+              <li><a href="#">Affiliate Marketing</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Data Analytics</a></li>
+              <li><a href="#">Data Entry</a></li>
+              <li><a href="#">Graphic Designing</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 follow">
+            <h2>Follow Us</h2>
+            <ul>
+              <li><i class="fa-solid fa-mobile"></i> +91-8178991027</li>
+              <li><i class="fa-solid fa-envelope"></i> Souravkumar5884@gmail.com</li>
+            </ul>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.6556216016515!2d77.30193821449149!3d28.489916097273408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce72136ba9187%3A0x768ae7298dd2737b!2sBadarpur%20Border%20Toll%20Booth%2C%20Badarpur%2C%20Haryana%20121003%2C%20India!5e0!3m2!1sen!2sde!4v1665991520551!5m2!1sen!2sde" width="100%" height="200"></iframe>
+          </div>
+        </div>
+      </div>
+    </footerhtml
+    <!-- Footer Section End -->
+
+
+
+<!-- script js -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+<!-- swiper Js -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<!-- swiper Js -->
+<script src="./js/swiper.js"></script>
+<!-- Aos data link -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 200,
+      duration: 400,
+    });
+  </script>
+<!-- script js -->
+
+</body>
+</html>
